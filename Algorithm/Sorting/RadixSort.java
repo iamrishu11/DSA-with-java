@@ -44,5 +44,13 @@ public class RadixSort {
         System.arraycopy(output, 0, arr, 0, n);
     }
     
-
+    // Main method to test the radix sort
+    public static void main(String[] args) {
+        int[] arr = {170, 45, 75, 90, 802, 24, 2, 66};
+        System.out.println("Original array: " + Arrays.toString(arr));
+        
+        radixSort(arr);
+        
+        System.out.println("Sorted array: " + Arrays.toString(arr));
+    }
 }
