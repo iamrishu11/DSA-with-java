@@ -23,3 +23,31 @@ public class BucketSort {
             }
             buckets[bucketIndex].add(num);
         }
+
+        // Step 3: Sort each bucket and concatenate results
+        int index = 0;
+        for (List<Float> bucket : buckets) {
+            Collections.sort(bucket);
+            for (float num : bucket) {
+                array[index++] = num;
+            }
+        }
+    }
+
+    // Main method to test bucket sort
+    public static void main(String[] args) {
+        float[] array = {0.42f, 0.32f, 0.54f, 0.22f, 0.74f, 0.12f, 0.63f};
+        System.out.println("Original array:");
+        for (float num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        bucketSort(array);
+
+        System.out.println("Sorted array:");
+        for (float num : array) {
+            System.out.print(num + " ");
+        }
+    }
+}
