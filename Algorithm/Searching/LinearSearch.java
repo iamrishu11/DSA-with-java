@@ -11,3 +11,17 @@ public class LinearSearch {
         }
         return -1; // Return -1 if the target is not found
     }
+
+    public static void main(String[] args) {
+        int[] numbers = {3, 5, 7, 9, 11, 13, 15};
+        int target = 9;
+
+        int result = linearSearch(numbers, target);
+
+        if (result == -1) {
+            System.out.println("Element not found in the array.");
+        } else {
+            System.out.println("Element found at index: " + result);
+        }
+    }
+}
