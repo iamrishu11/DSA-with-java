@@ -90,3 +90,4 @@ public class LinkedList {
         list.display();
     }
 }
+
