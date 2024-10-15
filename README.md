@@ -1,3 +1,3 @@
 # DSA-with-java
 
-file for me to reviewk
+This repo contain all the DSA algo in java language.
