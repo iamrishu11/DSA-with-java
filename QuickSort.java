@@ -52,7 +52,6 @@ public class QuickSort {
         printArray(array);
 
         quickSort(array, 0, array.length - 1);
-
         System.out.println("Sorted array:");
         printArray(array);
     }
