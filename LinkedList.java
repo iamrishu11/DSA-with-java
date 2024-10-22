@@ -86,6 +86,7 @@ public class LinkedList {
 
         // Deleting an element from the linked list
         list.delete(2);
+        
         System.out.println("Linked List after deleting element 2:");
         list.display();
     }
