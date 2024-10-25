@@ -31,7 +31,6 @@ public class LinkedList {
             current.next = newNode;
         }
     }
-
     // Method to insert a new node at the beginning of the list
     public void prepend(int data) {
         Node newNode = new Node(data);
