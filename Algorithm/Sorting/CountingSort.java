@@ -16,7 +16,6 @@ public class CountingSort {
             count[num]++;
         }
 
-
         // Modify the count array to store the cumulative counts
         for (int i = 1; i <= max; i++) {
             count[i] += count[i - 1];
