@@ -31,7 +31,6 @@ public class InterpolationSearch {
                 high = pos - 1;
             }
         }
-
         // Target not found
         return -1;
     }
