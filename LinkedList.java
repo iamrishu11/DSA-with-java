@@ -10,6 +10,7 @@ public class LinkedList {
             this.next = null;
         }
     }
+    
     private Node head; // Head of the linked list
 
     // Constructor to initialize the linked list
