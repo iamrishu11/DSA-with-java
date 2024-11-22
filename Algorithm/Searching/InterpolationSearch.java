@@ -11,7 +11,7 @@ public class InterpolationSearch {
                 if (arr[low] == target) {
                     return low;
                 }
-                return -1;
+                return -1; 
             }
 
             // Estimate the position using interpolation formula
