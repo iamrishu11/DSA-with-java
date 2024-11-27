@@ -10,7 +10,7 @@ public class InterpolationSearch {
             if (low == high) {
                 if (arr[low] == target) {
                     return low;
-                }
+                } 
                 return -1;  
             }
 
