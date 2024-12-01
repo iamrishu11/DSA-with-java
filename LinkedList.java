@@ -9,7 +9,7 @@ public class LinkedList {
             this.data = data;
             this.next = null;
         }
-    } 
+    }
     
     private Node head; // Head of the linked list
 
