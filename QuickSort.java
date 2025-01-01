@@ -11,7 +11,7 @@ public class QuickSort {
             quickSort(arr, pivotIndex + 1, high);
         }
     }
-
+ 
     // Method to partition the array into two halves
     private static int partition(int[] arr, int low, int high) {
         // Choose the rightmost element as the pivot
