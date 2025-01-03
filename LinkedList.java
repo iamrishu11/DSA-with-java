@@ -8,7 +8,7 @@ public class LinkedList {
         Node(int data) { 
             this.data = data;
             this.next = null;
-        }
+        } 
     }
     
     private Node head; // Head of the linked list
