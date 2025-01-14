@@ -5,7 +5,7 @@ public class BubbleSort {
         int n = arr.length;
         boolean swapped; 
         
-        // Traverse through all elements in the array
+        // Traverse through all elements in the array 
         for (int i = 0; i < n - 1; i++) {
             swapped = false; 
             
