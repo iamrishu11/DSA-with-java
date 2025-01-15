@@ -5,7 +5,7 @@ public class QuickSort {
         if (low < high) {
             // Partition the array and get the pivot index
             int pivotIndex = partition(arr, low, high);
-
+ 
             // Recursively sort the elements before and after partition
             quickSort(arr, low, pivotIndex - 1);
             quickSort(arr, pivotIndex + 1, high);
