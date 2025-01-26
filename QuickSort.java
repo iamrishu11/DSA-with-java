@@ -9,7 +9,7 @@ public class QuickSort {
             // Recursively sort the elements before and after partition
             quickSort(arr, low, pivotIndex - 1);
             quickSort(arr, pivotIndex + 1, high);
-        }
+        } 
     }
  
     // Method to partition the array into two halves
