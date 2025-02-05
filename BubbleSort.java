@@ -2,7 +2,7 @@ public class BubbleSort {
  
     // Method to perform Bubble Sort
     public static void bubbleSort(int[] arr) {
-        int n = arr.length;
+        int n = arr.length; 
         boolean swapped; 
         
         // Traverse through all elements in the array 
