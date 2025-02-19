@@ -1,6 +1,6 @@
 public class BubbleSort {
  
-    // Method to perform Bubble Sort
+    // Method to perform Bubble Sort 
     public static void bubbleSort(int[] arr) { 
         int n = arr.length;  
         boolean swapped;  
