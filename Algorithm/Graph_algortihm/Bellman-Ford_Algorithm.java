@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Graph {
-    private int vertices;
+    private int vertices; 
     private Edge[] edges;
 
     // Inner class to represent an edge
