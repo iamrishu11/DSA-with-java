@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.PriorityQueue;
- 
+  
 public class DijkstraAlgorithm {
 
     // A utility class to represent a node and its distance
