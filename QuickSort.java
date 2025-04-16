@@ -1,6 +1,6 @@
 public class QuickSort {  
  
-    // Method to perform the Quick Sort 
+    // Method to perform the Quick Sort  
     public static void quickSort(int[] arr, int low, int high) { 
         if (low < high) {
             // Partition the array and get the pivot index 
