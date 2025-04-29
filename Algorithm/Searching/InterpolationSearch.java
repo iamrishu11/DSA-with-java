@@ -1,4 +1,4 @@
-public class InterpolationSearch {
+public class InterpolationSearch { 
  
     // Function to perform interpolation search
     public static int interpolationSearch(int[] arr, int target) {
