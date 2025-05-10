@@ -2,7 +2,6 @@ public class LinkedList {
 
     // Node class representing each element in the linked list 
     private static class Node {    
-        
         int data;   
         Node next;      
               
