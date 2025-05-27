@@ -1,6 +1,6 @@
 public class HeapSort {
   
-    // Method to perform heap sort
+    // Method to perform heap sort 
     public static void heapSort(int[] arr) {
         int n = arr.length;
 
