@@ -1,4 +1,4 @@
-public class LinkedList {    
+public class LinkedList {   
   
     // Node class representing each element in the linked list 
     private static class Node {   
